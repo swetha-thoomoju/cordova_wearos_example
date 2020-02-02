@@ -44,7 +44,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        alert('Received Event: ' + id);
+        console.log('Received Event: ' + id);
 
         // Receiving messages from Watch
         var receiveMessageSuccess = function (message) {
